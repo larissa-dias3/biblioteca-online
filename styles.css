@@ -49,6 +49,7 @@ ul.lista-livros {
     gap: 20px; /*espaçamento entre os itens*/
     margin-left: 15px;
     padding-block: 10px;
+    clear: both; /*limpa o float*/
 }
 
 li.livro {
@@ -89,6 +90,7 @@ div.wrapper {
     width: 100%;
     overflow: auto; /*barra de rolagem*/
     margin-top: 65px; /*espaçamento entre o container e o resto*/
+
 }
 div p{
     /* margin-bottom: 15px; */
@@ -97,8 +99,8 @@ div p{
 section.livros-destaques {
     display: flex;
     gap: 20px; /*espaçamento entre os itens*/
-    margin-left: 15px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 div.livro-destaque {
@@ -112,7 +114,7 @@ div.livro-destaque {
     justify-content: center;
     border: 1px solid rgba(0, 0, 0, 0.1);
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-
+    
 }
 
 footer img.social-icon {
@@ -149,12 +151,13 @@ div.apresentacao{
     border: 2px solid black;
     border: 1px solid rgba(0, 0, 0, 0.1);
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
 
 }
 div.apresentacao p{
     text-align: left;
     margin-top: 13px;
-    font-size: 15px;
+    font-size: 18px;
     font-family: "Barskerville";
     
 }
@@ -163,6 +166,14 @@ div.apresentacao div.foto-minha img{
     width: 250px;
     aspect-ratio: 1/1;
     object-fit: cover;
-    border-radius: 750px;
-    
+    border-radius: 100%;
+    padding-right: 16px;
+}
+@media screen and (max-width: 768px) {
+    div.livro-destaque{
+        width: 92%;
+    }   
+    div.apresentacao div.foto-minha img{
+        width: 150px;
+    }
 }
