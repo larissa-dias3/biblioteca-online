@@ -1,0 +1,101 @@
+[
+    {
+        "id": 1,
+        "titulo": "Jurema das Matas",
+        "autor": "Mônica de Castro",
+        "imagem": "/fotosLivros/juremaDasMatas.png", 
+        "alt": "Capa do livro Jurema das Matas"
+    },
+    {
+        "id": 2,
+        "titulo": "Greta",
+        "autor":"Mônica de Castro",
+        "imagem": "/fotosLivros/greta.png",
+        "alt": "Capa do livro Greta"
+    },
+    {
+        "id": 3,
+        "titulo": "Lembranças que o vento trás 3",
+        "autor": "Mônica de Castro",
+        "imagem": "/fotosLivros/lembrancas.png",
+        "alt": "Capa do livro Lembranças que o vento trás"
+    },
+    {
+        "id": 4,
+        "titulo": "Com o Amor Não Se Brinca 2",
+        "autor": "Mônica de Castro",
+        "imagem": "/fotosLivros/com-o-amor.png",
+        "alt": "Capa do livro Com o Amor Não Se Brinca 2"
+    },
+    {
+        "id": 5,
+        "titulo": "Sentindo na Própia Pele 1",
+        "autor": "Mônica de Castro",
+        "imagem": "/fotosLivros/sentindo-na-pele.png",
+        "alt": "Capa do livro Sentindo na Própia Pele"
+    },
+    {
+        "id": 6,
+        "titulo": "O preço de Ser Diferente",
+        "autor": "Mônica de Castro",
+        "imagem": "/fotosLivros/o-preco.png",
+        "alt": "Capa do livro O preço de Ser Diferente"
+    },
+    {
+        "id": 7,
+        "titulo": "Princesa Celta",
+        "autor": "Mônica de Castro",
+        "imagem": "/fotosLivros/princesa-celta.png",
+        "alt": "Capa do livro Princesa Celta"
+    },
+    {
+        "id": 8,
+        "titulo": "Segredos da Alma",
+        "autor": "Mônica de Castro",
+        "imagem": "/fotosLivros/segredos-alma.png",
+        "alt": "Capa do livro Segredos da Alma"
+    },
+    {
+        "id": 9,
+        "titulo": "Violetas Na Janela",
+        "autor": "Vera Lúcia de Marinzeck",
+        "imagem": "/fotosLivros/violetas.png",
+        "alt": "Capa do livro Violetas Na Janela"
+    },
+    {
+        "id": 10,
+        "titulo": "Quando é Preciso Voltar",
+        "autor": "Zíbia Gasperetto",
+        "imagem": "/fotosLivros/quando-e-preciso-voltar.png", 
+        "alt": "Capa do livro Quando é Preciso Voltar"
+    },
+    {
+        "id": 11,
+        "titulo": "O Escravo",
+        "autor":"Vera Lúcia de Marinzeck",
+        "imagem": "/fotosLivros/o-escravo.png",
+        "alt": "Capa do livro O Escaro"
+    },
+    {
+        "id": 12,
+        "titulo": "Desejo, até Onde ele Pode te Levar?",
+        "autor": "Mônica de Castro",
+        "imagem": "/fotosLivros/desejo.png",
+        "alt": "Capa do livro Desejo"
+    },
+    {
+        "id": 13,
+        "titulo": "De Frente com a Verdade",
+        "autor": "Mônica de Castro",
+        "imagem": "/fotosLivros/de-frente-verdade.png",
+        "alt": "Capa do livro De Frente com a Verdade"
+    },
+    {
+        "id": 14,
+        "titulo": "Pelas Portas do Coração",
+        "autor": "Zíbia Gasperetto",
+        "imagem": "/fotosLivros/portas-do-coracao.png",
+        "alt": "Capa do livro Pelas Portas do Coração"
+    }
+
+]

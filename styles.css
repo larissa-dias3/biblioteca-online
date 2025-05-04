@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'Fogsta';
+    src: url('Fogsta.woff2') format('woff');
+  }
+  
+@font-face {
+    font-family: 'Barskerville';
+    src: url('baskervi\ \(1\).ttf');
+  }
+  
+* {
+    margin: 0; /* tira a margin de tudo*/
+    padding: 0; /*tira espaçamento interno*/
+    box-sizing: border-box; /*tamanho da caixa 100%*/
+}
+
+body {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #fdfdfd;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #640369;
+    padding: 20px;
+}
+
+input#pesquisar {
+    border-radius: 14px;
+    padding: 8px;
+    border: none;
+}
+
+footer {
+    background: #640369;
+    color: white;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+ul.lista-livros {
+    list-style: none; /*tira os pontos da lista*/
+    display: flex;
+    gap: 20px; /*espaçamento entre os itens*/
+    margin-left: 15px;
+    padding-block: 10px;
+}
+
+li.livro {
+    display: block;
+    background: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 10px;
+    width: 500px;
+    display: grid;
+    grid-template-rows: 70px 300px 20px;
+    transition: 0.3s; /*transição suave*/
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+img.livro {
+    height: 280px;
+    aspect-ratio: 2/3; /*proporção da imagem*/
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto; /*centraliza a imagem*/
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px; /*espaçamento entre o título e o resto*/
+    text-align: center; /*centraliza o texto*/
+    font-family: 'Playfair Display', serif;    
+    font-weight: 100;
+    color: rgb(36, 34, 37);
+}
+
+p{
+    text-align: center;
+}
+
+div.wrapper {
+    width: 100%;
+    overflow: auto; /*barra de rolagem*/
+    margin-top: 65px; /*espaçamento entre o container e o resto*/
+}
+div p{
+    /* margin-bottom: 15px; */
+    font-size: 20px;
+}
+section.livros-destaques {
+    display: flex;
+    gap: 20px; /*espaçamento entre os itens*/
+    margin-left: 15px;
+    justify-content: center;
+}
+
+div.livro-destaque {
+    display: block;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    width: 500px;
+    display: grid;
+    grid-template-rows: 70px 300px 20px;
+    justify-content: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+footer img.social-icon {
+    width: 40px;
+    height: 40px;
+}
+
+footer img.social-icon-insta {
+    width: 26px;
+    height: 26px;
+}
+
+div.redes-sociais {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+header .logo {
+    display: block;
+    width: 60px;
+}
+h3{
+    margin: 0 auto;
+    width: fit-content; 
+    font-size: 30px;
+    margin-bottom: 12px;
+    font-family: "Barskerville";
+}
+div.wrapper p{
+    font-family: 'Lora', serif;
+}
+div.apresentacao{
+    border: 2px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+div.apresentacao p{
+    text-align: left;
+    margin-top: 13px;
+    font-size: 15px;
+    font-family: "Barskerville";
+    
+}
+div.apresentacao div.foto-minha img{
+    float: left;
+    width: 250px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 750px;
+    
+}
