@@ -1,7 +1,7 @@
 const listaLivros = document.querySelector('.lista-livros');
 const destaque = document.querySelector('.livros-destaques');
 
-fetch('livros.json')
+fetch('https://larissa-dias3.github.io/biblioteca-online/livros.json')
     .then((response) => response.json())
     .then((livros) => {
         livros.forEach(livro => {
