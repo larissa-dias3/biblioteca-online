@@ -1,5 +1,3 @@
-const { clear } = require("@testing-library/user-event/dist/clear");
-
 const listaLivros = document.querySelector('.lista-livros');
 const destaque = document.querySelector('.livros-destaques');
 const input = document.getElementById("pesquisar");
@@ -66,14 +64,12 @@ function filtrarLivros(termo) {
         return;
     }
     const livrosEncontrados=[];
-
     todosLivros.forEach(livro =>{
 
         if (removerAcentos(livro.autor.toLowerCase()).includes(removerAcentos(termo)) || removerAcentos(livro.titulo.toLowerCase()).includes(removerAcentos(termo))) {
             livrosEncontrados.push(livro);
         }
     });
-
     if (livrosEncontrados.length > 0) {
         listaLivros.innerHTML = ""; // Limpa a lista antes de exibir os resultados
         exibirLivros(livrosEncontrados);
