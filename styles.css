@@ -43,12 +43,12 @@ footer {
     margin-top: 10px;
 }
 
+
 ul.lista-livros {
     list-style: none; /*tira os pontos da lista*/
     display: flex;
     gap: 20px; /*espaçamento entre os itens*/
     margin-inline: 15px;
-    clear: both; /*limpa o float*/
 
 }
 
@@ -89,7 +89,7 @@ p{
 div.wrapper {
     width: 100%;
     overflow: auto; /*barra de rolagem*/
-    margin-top: 65px; /*espaçamento entre o container e o resto*/
+    margin-top: 20px; /*espaçamento entre o container e o resto*/
     padding-block: 10px;
 }
 div p{
@@ -152,22 +152,26 @@ div.apresentacao{
     border: 1px solid rgba(0, 0, 0, 0.1);
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     padding: 16px;
-    margin-top:40px;
+    margin-top: 40px;
 }
 div.apresentacao p{
     text-align: left;
     /* margin-top: 13px; */
     font-size: 18px;
     font-family: "Barskerville";
-    
 }
+
+
 div.apresentacao div.foto-minha img{
     float: left;
-    width: 250px;
+    width: 220px;
     aspect-ratio: 1/1;
     object-fit: cover;
     border-radius: 100%;
     padding-right: 16px;
+}
+div.livroInicio{
+    margin-top: 20px;
 }
 @media screen and (max-width: 768px) {
     div.livro-destaque{
