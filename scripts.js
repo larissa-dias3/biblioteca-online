@@ -6,7 +6,7 @@ let todosLivros = [];
 // Cria um regex array para substituir acentos em portugues pela letr correspondente sem acento
 
 
-fetch('livros.json')
+fetch('livros.json?'+ new Date().getTime()) // Adiciona um timestamp para evitar cache
     .then((response) => response.json())
     .then((livros) => {
         todosLivros = livros;
