@@ -1,3 +1,5 @@
+const { clear } = require("@testing-library/user-event/dist/clear");
+
 const listaLivros = document.querySelector('.lista-livros');
 const destaque = document.querySelector('.livros-destaques');
 const input = document.getElementById("pesquisar");
@@ -32,6 +34,7 @@ fetch('livros.json')
     });
 
 function exibirLivros(livros) {
+    listaLivros.innerHTML = ""; // Limpa a lista antes de exibir os resultados
     livros.forEach(livro => {
         const livroItem = document.createElement('li');
         livroItem.classList.add('livro');
